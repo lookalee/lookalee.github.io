@@ -3,7 +3,7 @@ layout: single
 title:  "typora testing testing"
 tags: [algorithms]
 categories: algorithms
-Typora-copy-images-to: "../assets/images"
+typora-copy-images-to: ../assets/images
 ---
 
 # Hello
