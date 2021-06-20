@@ -95,7 +95,7 @@ analytics:
 # Site Author
 author:
   name             : "Jinwon Lee"
-  avatar           : "/assets/images/KakaoTalk_Photo_2021-06-19-22-27-22.jpeg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/assets/images/avatar.jpeg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "A bored software engineer."
   location         : "South Korea"
   email            : "dwdljw@gmail.com"
