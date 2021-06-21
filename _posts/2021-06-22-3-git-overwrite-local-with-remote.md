@@ -1,6 +1,6 @@
 ---
 layout: single
-title:  "3. How to use "git fetch" and "git reset" to overwrite local repository with remote version"
+title: "3. How to use 'git fetch' and 'git reset' to overwrite local repository with remote version"
 tags: [git, github, repository]
 categories: git
 ---
