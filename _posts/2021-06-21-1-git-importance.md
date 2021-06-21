@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "1. Importance of using Git"
+title: "Importance of using Git (1)"
 tags: [git, github, vcs]
 categories: git
 ---

@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "2. Git Basic Commands"
+title: "Git Basic Commands (2)"
 tags: [git, github]
 categories: git
 ---

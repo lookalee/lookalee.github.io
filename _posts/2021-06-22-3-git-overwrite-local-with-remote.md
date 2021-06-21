@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "3. How to use 'git fetch' and 'git reset' to overwrite local repository with remote version"
+title: "How to use 'git fetch' and 'git reset' to overwrite local repository with remote version (3)"
 tags: [git, github, repository]
 categories: git
 ---
@@ -18,7 +18,7 @@ categories: git
 
 
 - IMPORTANT NOTE: All local changes that have been made will be **lost** if `git fetch` is used. If needed, you can maintain the local commits by creating a new branch. This can be done using the following commands:
-  - `git checkout main
-    git branch [new branch name]
-    git fetch --all`
+  - `git checkout main`
+    `git branch [new branch name]`
+    `git fetch --all`
   - Now, you can do `git reset --hard origin/[new branch name]` to overwite the local files while keeping the old version in the new branch. 
