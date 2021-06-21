@@ -24,10 +24,11 @@ categories: git
 
 `git push origin main` : push changes to the main branch of remote repository. This "syncs" the local space with the remote space, meaning they will have identical contents.
 
-**Misc**:
- `git config --global user.name="[username]"` : setting git username
- `git config --global user.email="[email]"` : setting git email
- `git --help` : show all git commands and descriptions
+<u>Misc</u>
+
+- `git config --global user.name="[username]"` : setting Git username.
+- `git config --global user.email="[email]"` : setting Git email.
+- `git --help` : show all git commands and descriptions.
 
 #### Important files worth mentioning:
 
