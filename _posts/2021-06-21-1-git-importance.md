@@ -5,7 +5,8 @@ tags: [git, github, vcs]
 categories: git
 ---
 
-Git is a **VCS** (Version Control System).
+> Git is a **VCS** (Version Control System). Because it is predominantly used by anyone who deals with code, it is important to learn Git and add it to our developing experience. This series of articles aim to explain the background of Git and its practices.
+>
 
 **Why do we need to use Git?**
 

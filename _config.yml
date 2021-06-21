@@ -96,7 +96,7 @@ analytics:
 author:
   name             : "Jinwon Lee"
   avatar           : "/assets/images/avatar.jpeg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "A bored software engineer."
+  bio              : "Software Engineer."
   location         : "South Korea"
   email            : "dwdljw@gmail.com"
   links:
