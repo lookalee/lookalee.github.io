@@ -22,7 +22,7 @@ Git is a **VCS** (Version Control System).
 | Needs internet access to work (works like Google Drive) | Can work locally by cloning to local space, and push/pull whenever desired |
 |                                                         |          Keeps track of versions using 'snapshots'           |
 
-![Screenshot-2021-06-21-at-10.30.17-PM](assets/images/Screenshot-2021-06-21-at-10.30.17-PM.png)
+![Screenshot-2021-06-21-at-10.30.17-PM](/assets/images/Screenshot-2021-06-21-at-10.30.17-PM.png)
 
 **Advantages of Git:**
 
