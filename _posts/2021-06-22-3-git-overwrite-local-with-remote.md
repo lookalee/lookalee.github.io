@@ -18,7 +18,11 @@ categories: git
 
 
 - IMPORTANT NOTE: All local changes that have been made will be **lost** if `git fetch` is used. If needed, you can maintain the local commits by creating a new branch. This can be done using the following commands:
-  - `git checkout main`
-    `git branch [new branch name]`
-    `git fetch --all`
-  - Now, you can do `git reset --hard origin/[new branch name]` to overwite the local files while keeping the old version in the new branch. 
+
+  1. `git checkout main`
+
+  2. `git branch [new branch name]`
+
+  3. `git fetch --all`
+
+  4. Now, you can do `git reset --hard origin/[new branch name]` to overwite the local files while keeping the old version in the new branch. 
