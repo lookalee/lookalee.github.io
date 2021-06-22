@@ -16,13 +16,6 @@ layout: archive
   {% endfor %}
 </ul>
 
-<!-- ADDED -->
-<div style="text-align: center;">
-  <a href="https://hits.seeyoufarm.com">
-    <img
-      src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Flookalee%2Fhit-counter&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false" /></a>
-</div>
-
 {% assign entries_layout = page.entries_layout | default: 'list' %}
 {% assign postsByYear = site.posts | where_exp: "item", "item.hidden != true" | group_by_exp: 'post', 'post.date | date:
 "%Y"' %}
@@ -30,6 +23,13 @@ layout: archive
 <section id="{{ year.name }}" class="taxonomy__section">
   <h2 class="archive__subtitle">{{ year.name }}</h2>
   <div class="entries-{{ entries_layout }}">
+
+    <!-- ADDED -->
+    <div style="text-align: center;">
+      <a href="https://hits.seeyoufarm.com"><img
+          src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https://{{ site.url | remove_first: 'https://' | remove_first: 'http://' }}{{ page.url }}%2F&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=views&edge_flat=false" /></a>
+    </div>
+
     {% for post in year.items %}
     {% include archive-single.html type=entries_layout %}
     {% endfor %}
