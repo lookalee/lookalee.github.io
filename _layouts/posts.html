@@ -23,16 +23,6 @@ layout: archive
 <section id="{{ year.name }}" class="taxonomy__section">
   <h2 class="archive__subtitle">{{ year.name }}</h2>
   <div class="entries-{{ entries_layout }}">
-
-    <!-- ADDED -->
-    <div style="text-align: center;">
-      <a href="http://hits.dwyl.com/likelionSungGuk.github.io/21-01-05/Jekyll-%EB%B8%94%EB%A1%9C%EA%B7%B8-%EC%A1%B0%ED%9A%8C%EC%88%98-%EB%B1%83%EC%A7%80-%EB%8B%AC%EA%B8%B0-HITS"
-        target="_blank">
-        <img
-          src="http://hits.dwyl.com/likelionSungGuk.github.io/21-01-05/Jekyll-%EB%B8%94%EB%A1%9C%EA%B7%B8-%EC%A1%B0%ED%9A%8C%EC%88%98-%EB%B1%83%EC%A7%80-%EB%8B%AC%EA%B8%B0-HITS.svg" />
-      </a>
-    </div>
-
     {% for post in year.items %}
     {% include archive-single.html type=entries_layout %}
     {% endfor %}
