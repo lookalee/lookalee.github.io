@@ -20,7 +20,7 @@ title                    : "Jinwon's Blog"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Jinwon Lee"
-description              : "Jinwon's Dev Blog"
+description              : "Jinwon's IT Dev Blog"
 url                      : "https://lookalee.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "lookalee/lookalee.github.io" # GitHub username/repo-name
