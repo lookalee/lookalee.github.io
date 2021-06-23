@@ -20,7 +20,7 @@ categories: git
 |                          CVCS                           |                             DVCS                             |
 | :-----------------------------------------------------: | :----------------------------------------------------------: |
 |                    Used in the past                     |                        Being used now                        |
-| Needs internet access to work (works like Google Drive) | Can work locally by cloning to local space, and push/pull whenever desired |
+| Needs internet access to work (works like Google Drive) | Users can work locally by cloning to local space, and push/pull whenever desired |
 |                                                         |          Keeps track of versions using 'snapshots'           |
 
 ![Screenshot-2021-06-21-at-10.30.17-PM](/assets/images/Screenshot-2021-06-21-at-10.30.17-PM.png)
