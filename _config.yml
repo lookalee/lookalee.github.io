@@ -281,3 +281,5 @@ defaults:
       share: true
       related: true
       show_date: true # ADDED
+      toc: true
+      toc_label: "목차"
