@@ -32,7 +32,5 @@ Debug.Log("The Highest Number is" + max);
 
 <u>참조</u>
 
-- [Complete C# Unity Game Developer 2D 강좌]: https://www.udemy.com/course/unitycourse/	"Complete C# Unity Game Developer 2D 강좌"
-
-  
+[Complete C# Unity Game Developer 2D]: https://www.udemy.com/course/unitycourse/	"Complete C# Unity Game Developer 2D 강좌"
 
