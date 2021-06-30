@@ -9,7 +9,7 @@ categories: git
 >
 > In this case, a possible solution is to overwrite the local repository with the remote version using the `git fetch` command so that they are in sync. 
 
-#### Using `git fetch` to force "git pull" from remote repository to overwite local files:
+### Using `git fetch` to force "git pull" from remote repository to overwite local files:
 
 1. do `git fetch --all` 
 2. do `git branch backup-main` to backup the current branch

@@ -6,16 +6,15 @@ categories: git
 ---
 
 > Git is a **VCS** (Version Control System). Because it is predominantly used by anyone who deals with code, it is important to learn Git and add it to our developing experience. This series of articles aim to explain the background of Git and its practices.
->
 
-**Why do we need to use Git?**
+### **Why do we need to use Git?**
 
 - Version Management: Allows us to keep track of changes we make to a project. 
   - Can keep backups of previous versions so we can return to it when needed.
   - By storing versions in a remote space, decreases local space usage.
   - In a team project, allows us to track who made changes to a certain file.
 
-**Centralized vs Distributed** **Version Control System**
+### **Centralized vs Distributed** **Version Control System**
 
 |                          CVCS                           |                             DVCS                             |
 | :-----------------------------------------------------: | :----------------------------------------------------------: |
@@ -25,7 +24,7 @@ categories: git
 
 ![Screenshot-2021-06-21-at-10.30.17-PM](/assets/images/Screenshot-2021-06-21-at-10.30.17-PM.png)
 
-**Advantages of Git:**
+### **Advantages of Git:**
 
 1. Fast
 2. Simple Structure
@@ -33,7 +32,7 @@ categories: git
 4. Perfect distribution
 5. Useful for large projects like Linux Kennels.
 
-**Steps of using Git:**
+### **Steps of using Git:**
 
 1. Initialization & Repository
    - **Repository** is a collection of files of various versions of a project.
@@ -41,7 +40,8 @@ categories: git
 3. Select desired changes
 4. Update status
 
-**Version Control Syntax**: [A].[B].[C].
+### **Version Control Syntax**: [A].[B].[C].
+
 ex) 0.0.1, 1.1.0
 
 - [A] : Major : A new version that is not compatible with the previous version.

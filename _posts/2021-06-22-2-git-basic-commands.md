@@ -5,6 +5,8 @@ tags: [git, github]
 categories: git
 ---
 
+### Important Git Basic Commands
+
 `git init` : use locally for Git initialization. creates the *.git* file which will contain all future version management info.
 
 `git add [file]` : after making changes, add [file] to staging level
@@ -24,7 +26,7 @@ categories: git
 
 `git push origin main` : push changes to the main branch of remote repository. This "syncs" the local space with the remote space, meaning they will have identical contents.
 
-<u>Misc</u>
+#### <u>Misc</u>
 
 - `git config --global user.name="[username]"` : setting Git username.
 - `git config --global user.email="[email]"` : setting Git email.

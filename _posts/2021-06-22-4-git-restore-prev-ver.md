@@ -10,7 +10,7 @@ categories: git
 
 The main function of `git checkout` command is to switch to another git branch. However, it can also be used to  overwrite the current directory with a specified snapshot from the commit history. 
 
-Here are the steps to rollback to a previous Git commit using `git checkout` :
+### Steps to rollback to a previous Git commit using `git checkout` :
 
 1. Using `cd` command, navigate to the directory of the repository that you wish to perform rollback.
 2. either ***1.*** do `git log` to find the commit id that you wish to rollback to, or ***2.*** find the commit id on github's commit history. 
