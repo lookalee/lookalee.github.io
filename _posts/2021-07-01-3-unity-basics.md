@@ -7,7 +7,7 @@ categories: unity-2d
 
 ---
 
-### C# Script 생성
+### C# Script 파일 생성
 
 유니티 인터페이스의 하단 Assets 칸에 오른쪽 클릭을 하여 C# Script 를 생성할 수 있다.
 C# Script 는 기본적으로 `void Start() { }` 와 `void Update () { }`로 이루어져 있다.
