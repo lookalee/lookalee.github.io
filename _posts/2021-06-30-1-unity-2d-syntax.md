@@ -10,7 +10,7 @@ categories: unity-2d
 - C#를 사용할때 `print("test");` 를 활용하거나 `Debug.Log("test");`를 활용하여 출력 할 수 있다. 
 - 추후에 설명하겠지만 `Debug.Log()` 을 사용하는데에 장점이 있기 때문에 미리 `Debug.Log()`의 사용을 습관화 하면 좋다. 
 
-## C# 변수 : Variables
+## C# 변수 (Variables)
 
 - int형 변수 ex: `int hitPoints = 20;`
 - float형 변수 ex: `float speed = 3.8f;`
@@ -46,7 +46,7 @@ else {
 
 - 하나의 method안에 정의된 변수는 다른 method에서 사용될 수 없지만, class-level에서 정의된 변수는 같은 class 안에 있는 모든 method에서 사용될 수 있다. 
 
-## 코드 리팩터링 : Refactoring
+## 코드 리팩터링 (Refactoring)
 
 - 리팩터링: 코드를 읽기 쉽게 구조를 재조정하는 과정
 - 예시) 
