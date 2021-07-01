@@ -81,8 +81,8 @@ void Start()
 
 <u>참조</u>
 
-[Complete C# Unity Game Developer 2D]: https://www.udemy.com/course/unitycourse/	"Complete C# Unity Game Developer 2D 강좌"
-
 https://docs.unity3d.com/ScriptReference/Input.html
 https://docs.unity3d.com/ScriptReference/KeyCode.html
+
+[Complete C# Unity Game Developer 2D]: https://www.udemy.com/course/unitycourse/	"Complete C# Unity Game Developer 2D"
 
