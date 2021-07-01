@@ -7,6 +7,18 @@ categories: unity-2d
 
 ---
 
+### Unity 인터페이스 기본
+
+![image-20210701223032087](file:///Users/jinwonlee/Documents/lookalee.github.io/assets/images/image-20210701223032087.png?lastModify=1625149157)
+
+위 사진에서 보이듯이 유니티를 키면 **Hiearchy, Scene, Game, Inspector, Project, Console** 와 같은 인터페이스들을 확인할 수 있다.
+
+- Hiearchy 인터페이스에는 모든 게임 오브젝트들이 들어간다. (화면에 보이는 Main Camera도 게임 오브젝트이다)
+  - ex) 카메라, 플레이어, 아이템, 환경, 등
+  - 게임 오브젝트를 클릭하면 우측 Inspector 칸에서 해당 오브젝트에 대한 정보를 볼 수 있다.
+  - Hierarchy 메뉴에서 우측 클릭하거나 Assets 메뉴에서 드레그하여 게임 오브젝트를 추가할 수 있다. 
+  - 게임 오브젝트의 순서에 따라 Overlay 가 결정된다.
+
 ### C# Script 파일 생성
 
 유니티 인터페이스의 하단 Assets 칸에 오른쪽 클릭을 하여 C# Script 를 생성할 수 있다.
@@ -77,9 +89,59 @@ public class NumberWizard : MonoBehaviour
     }
 ```
 
-### Creating Sprites
+### Sprites
 
-- Sprite: 2D graphic objected obtained from a bitmap image.
+- Sprite: 비트맵 이미지로 생성된 2D 오브젝트.
+- 이동, 스케일, 회전, 등을 할 수 있다.
+
+#### Sprites 생성
+
+1. 하단 Assets칸에서 오른쪽 클릭 후 네모, 동그라미, 등의 Sprites 를 생성.
+2. 생성된 Sprites를 Hiearchy, 또는 Scene 화면으로 드레그 (여러개 추가 가능).
+3. 상단 좌측 메뉴들로 Sprites를 조정할 수 있음.
+
+### Canvas 생성
+
+Canvas는 Game Object중 하나이며 게임 스크린이라고 생각해보자.
+
+1. GameObject --> UI --> Canvas 클릭하여 Canvas 생성
+2. Canvas에 우측 클릭하여 Text, Image 와 같은 게임 오브젝트 생성. 
+   1. 생성된 게임 오브젝트들은 Canvas의 Child 오브젝트가 됨.
+   2. 우측 Inspector 화면의 체크박스를 이용해 Canvas를 비활성화하면 Children들까지 비활성화가 됨.
+
+### Game Objects
+
+**<u>Game Object -> Components -> Properties</u>**
+
+모든 **Game Object**들은 Animation, Audio, Effects 와 같은 **Components** 들로 이루어져 있으며, Components 들은 Values, Reference와 같은 **Properties**들로 이루어져 있다. 
+
+1. 우측 클릭으로 Game Object 생성 후 Inspector 메뉴에서 'Add Component' 버튼을 눌러 Component를 추가할 수 있다. 
+
+### Text Component 업데이트 하는 법
+
+1. 좌측 메뉴 에서 우측 클릭 후 "Create Empty" 를 클릭하여 Game Object 생성.
+2. Inspector Menu 에서 포지션 모두 0으로 초기화
+3. Inspector Menu 에서 Add Component 클릭하여 Script Component 를 추가. 
+4. Script에서 Text형 변수를 하나 생성해주고 (UnityEngine.UI namespace 추가해줘야함) Unity 에서 이걸 원하는 Text Object 에 연결.
+5. 아래 코드를 사용하여 게임이 시작되면 텍스트가 표시되게 설정.
+
+```C#
+public class AdventureGame : MonoBehaviour
+{
+    [SerializeField] Text textComponent; //variable of type Text
+    void Start()
+    {
+        textComponent.text = ("I will show when game starts!"); //modifying text property WITHIN the text component
+    }
+		...
+```
+
+![image-20210702013031600](/Users/jinwonlee/Documents/lookalee.github.io/assets/images/image-20210702013031600.png)
+
+<u>참고</u>: 
+
+- 사용한 설정값
+  - Game 화면 디스플레이: Full HD (1920x1080)
 
 <u>참조</u>
 
