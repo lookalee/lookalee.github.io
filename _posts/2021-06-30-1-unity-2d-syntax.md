@@ -83,6 +83,5 @@ void Start()
 
 https://docs.unity3d.com/ScriptReference/Input.html
 https://docs.unity3d.com/ScriptReference/KeyCode.html
-
-[Complete C# Unity Game Developer 2D]: https://www.udemy.com/course/unitycourse/	"Complete C# Unity Game Developer 2D"
+https://www.udemy.com/course/unitycourse/
 

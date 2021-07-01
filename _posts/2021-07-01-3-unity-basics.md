@@ -83,10 +83,9 @@ public class NumberWizard : MonoBehaviour
 
 <u>참조</u>
 
-- [Complete C# Unity Game Developer 2D 강좌]: https://www.udemy.com/course/unitycourse/
+https://docs.unity3d.com/ScriptReference/Input.html
+https://docs.unity3d.com/ScriptReference/KeyCode.html
+https://www.udemy.com/course/unitycourse/
 
-  https://docs.unity3d.com/ScriptReference/Input.html
-  https://docs.unity3d.com/ScriptReference/KeyCode.html
 
-  
 
