@@ -9,7 +9,7 @@ categories: unity-2d
 
 ### Unity 인터페이스 기본
 
-![image-20210701223032087](file:///Users/jinwonlee/Documents/lookalee.github.io/assets/images/image-20210701223032087.png?lastModify=1625149157)
+![image-20210701223032087](/assets/images/image-20210701223032087.png?lastModify=1625149157)
 
 위 사진에서 보이듯이 유니티를 키면 **Hiearchy, Scene, Game, Inspector, Project, Console** 와 같은 인터페이스들을 확인할 수 있다.
 
@@ -136,7 +136,7 @@ public class AdventureGame : MonoBehaviour
 		...
 ```
 
-![image-20210702013031600](/Users/jinwonlee/Documents/lookalee.github.io/assets/images/image-20210702013031600.png)
+![image-20210702013031600](/assets/images/image-20210702013031600.png)
 
 <u>참고</u>: 
 
