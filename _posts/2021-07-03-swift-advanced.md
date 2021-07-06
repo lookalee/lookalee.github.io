@@ -27,15 +27,32 @@ Comparison Operators: `<, >, ==, !=`
 
 ![image-20210704032159488](/assets/images/image-20210704032159488.png)
 
-**Dot Notation**
+- **Initialization:** to initialise an instance of an animal: `let animal = Animal()`
+- Then, use dot notation to call the property/method of that instance: `animal.dog` 
 
-- dog 라는 instance 안의 "color" 라는 변수를 아래와 같이 접근할 수 있다:
+### Arrays (배열)
 
-  ```swift
-  dog.color = "green"
-  ```
+- "Arrays in Swift are ordered lists"
 
-   
+- 배열 정의:  `var ingredients = ["banana", "almonds", "milk"]`
+
+- 아이템 수정: `ingredients[0] = "strawberry"`
+
+- Swift의 배열에는 `.remove(at: x)` 와 같은 함수를 사용하여 아이템 추가, 삭제 등 간단한 수정을 할 수 있다
+
+  - ex) 
+
+    ```swift
+    var ingredients = ["banana", "almonds", "milk"]
+    ingredients.remove(at: 2)
+    ingredients.append("water")
+    ingredients.insert("yoghurt", at: 1) //새로운 아이템이 remove/insert 되면 그 이후 아이템의 인덱스들은 자동으로 바뀐다.
+    for item in ingredients { //looping array
+      someFunction(item)
+    }
+    ```
+
+    
 
 ### Algorithms (알고리즘)
 

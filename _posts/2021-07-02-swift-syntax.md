@@ -15,6 +15,21 @@ func turnRight() {
 }
 ```
 
+- Parameter(매개 변수)를 가진 함수 정의:
+
+```C#
+//이 함수는 'Int' 타입을 가진 'Count' 매개변수를 가지고 있다.
+func eat(count: Int) {
+	for i in 1...count {
+    //code
+  }
+}
+...
+eat(count: 3) //calling the function
+```
+
+
+
 ### for (반복문)
 
 ```swift
