@@ -13,7 +13,7 @@ categories: iOS
 변수 정의:  `var age = 18`
 Incrementing: age = age + 1 or `age += 1`
 
-Comparison Operators: `<, >, ==, !=`
+비교 연산자: `<, >, ==, !=`
 
 ### Constants (상수)
 
