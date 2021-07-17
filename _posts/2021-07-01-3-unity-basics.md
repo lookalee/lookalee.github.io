@@ -117,27 +117,6 @@ Canvas는 Game Object중 하나이며 게임 스크린이라고 생각해보자.
 
 1. 우측 클릭으로 Game Object 생성 후 Inspector 메뉴에서 'Add Component' 버튼을 눌러 Component를 추가할 수 있다. 
 
-### Text Component 업데이트 하는 법
-
-1. 좌측 메뉴 에서 우측 클릭 후 "Create Empty" 를 클릭하여 Game Object 생성.
-2. Inspector Menu 에서 포지션 모두 0으로 초기화
-3. Inspector Menu 에서 Add Component 클릭하여 Script Component 를 추가. 
-4. Script에서 Text형 변수를 하나 생성해주고 (UnityEngine.UI namespace 추가해줘야함) Unity 에서 이걸 원하는 Text Object 에 연결.
-5. 아래 코드를 사용하여 게임이 시작되면 텍스트가 표시되게 설정.
-
-```C#
-public class AdventureGame : MonoBehaviour
-{
-    [SerializeField] Text textComponent; //variable of type Text
-    void Start()
-    {
-        textComponent.text = ("I will show when game starts!"); //modifying text property WITHIN the text component
-    }
-		...
-```
-
-![image-20210702013031600](/assets/images/image-20210702013031600.png)
-
 <u>참고</u>: 
 
 - 사용한 설정값
