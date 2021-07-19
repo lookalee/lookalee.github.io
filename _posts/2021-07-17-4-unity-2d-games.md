@@ -29,6 +29,16 @@ public class AdventureGame : MonoBehaviour
 
 ![image-20210702013031600](/assets/images/image-20210702013031600.png)
 
+### States and State Machines
+
+- State - Action / process / behavior
+- State Machine 은 한번에 하나의 State만 있다고 가정함
+- ![image-20210719173059344](/assets/images/image-20210719173059344.png)
+
+
+
+
+
 
 
 <u>참고</u>: 
