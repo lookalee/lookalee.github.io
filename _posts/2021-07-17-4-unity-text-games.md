@@ -46,7 +46,7 @@ public class AdventureGame : MonoBehaviour
 
 - 가볍고 편리함
 
-- ![image-20210719174919215](/Users/jinwonlee/Documents/lookalee.github.io/assets/images/image-20210719174919215.png)
+- ![image-20210719174919215](/assets/images/image-20210719174919215.png)
 
   script 파일에는 여러 용도의 코드가 들어가는 반면, Scriptable Object에는 데이터만 들어감. 
 
