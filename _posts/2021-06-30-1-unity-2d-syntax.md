@@ -24,6 +24,17 @@ int max = 100;
 Debug.Log("The Highest Number is" + max);
 ```
 
+### var
+
+변수 정의할때 int, string, bool 등 대신 var 을 사용할 수 있다. 그럼 변수 내용에 따라 var이 아래 예시와 같이 자동 지정된다.
+
+```c#
+var nextStates = state.GetNextStates();
+//state.GetNextStates() 에서 불려오는 내용이 string이면, var는 자동으로 string으로 지정됨.
+```
+
+ 
+
 ## 조건문 : if, else if, else
 
 ```c#
@@ -85,6 +96,14 @@ void Start()
 public string getStory() {
 	//code
 }
+```
+
+## 배열 (Array)
+
+배열 정의 예)
+
+```c#
+int[] oddNumbers = {1, 3, 5, 7, 9};
 ```
 
 <u>참조</u>

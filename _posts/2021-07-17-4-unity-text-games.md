@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "Unity-2D 공부일지: 텍스트 기반 게임 개발 기능들 (1)"
+title: "텍스트 기반 게임 개발: text component, scriptable object, state (1)"
 tags: [unity, game-dev, C#]
 categories: unity-2d
 
@@ -75,7 +75,88 @@ Scriptable Objects 사용법:
 
 4. Unity 하단 Asset 인터페이스에서 우측 클릭 후 'State'눌러서 'StartingText'라는 Scriptable Object 생성. 우측에 우리가 만든 Story Text 칸안에 텍스트 입력. 
 
+### 게임 시작하면 시작 state의 Story Text 칸안에 있는 텍스트를 띄우기
 
+1. State.cs 파일에 전 단계에서 지정한 Story Text 를 리턴해주는 함수 추가:
+
+   ```C#
+       public string GetStateStory()
+       {
+           return storyText;
+       }
+   ```
+
+2. 메인 script 파일의 Start() 함수를 다음과 같이 지정:
+
+   ```C#
+       [SerializeField] Text textComponent; //variable of type Text
+       [SerializeField] State startingState;
+   
+       State state;
+   
+       // Start is called before the first frame update
+       void Start()
+       {
+           state = startingState;
+           textComponent.text = state.GetStateStory();//modifying text property WITHIN the text component
+       }
+   ```
+
+   
+
+### 키보드 누르면 Next State로 이동
+
+1. 먼저, State.cs 파일에 아래와 같이 'SerializeField' 를 해준다
+
+   ```c#
+   [SerializeField] State[] nextStates;
+   ```
+
+   이러면 Unity에서 scriptable object 를 클릭하면 우측 inspector에 'Next States'라는 배열이 생긴다. 
+
+2. Assets 칸에서 Create -> State 를 통해 'Room 1', 'Room 2' 등 새로운 state 들을 만든 후, 위에서 말했던 'Next States'에 원하는 state 들을 drag해준다 (추가할 state 가 굉장히 많을 시 우측 상단 자물쇠 버튼을 이용해 inspector 칸을 잠근 후 추가할 state 들을 한꺼번에 선택 후 drag 한다).
+
+3. Next States 지정이 끝났으면 메인 script 파일의 Update() 함수에 다음과 비슷한 코드를 추가해준다:
+
+   ```C#
+       void Update()
+       {
+           ManageState();
+       }
+   
+       private void ManageState()
+       {
+           var nextStates = state.GetNextStates();
+           if (Input.GetKeyDown(KeyCode.Alpha1)) //key number 1 on keyboard
+           {
+               state = nextStates[0];
+           }
+           else if (Input.GetKeyDown(KeyCode.Alpha2)) //key number 1 on keyboard
+           {
+               state = nextStates[1];
+           }
+           else if (Input.GetKeyDown(KeyCode.Alpha3))
+           {
+               state = nextStates[2];
+           }
+           textComponent.text = state.GetStateStory();
+       }
+   ```
+
+   이러면 키보드에서 1를 누를 시 전 과정에서 지정된 첫번째 state로 이동된다.  
+
+   이때, State.cs 파일에서 지정된 state 배열을 리턴하는 GetNextStates()라는 함수를 생성해줘야 함:
+
+   ```C#
+       [SerializeField] State[] nextStates;
+   
+       public State[] GetNextStates()
+       {
+           return nextStates;
+       }
+   ```
+
+   
 
 <u>참고</u>: 
 
