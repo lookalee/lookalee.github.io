@@ -116,6 +116,8 @@ Scriptable Objects 사용법:
 
 2. Assets 칸에서 Create -> State 를 통해 'Room 1', 'Room 2' 등 새로운 state 들을 만든 후, 위에서 말했던 'Next States'에 원하는 state 들을 drag해준다 (추가할 state 가 굉장히 많을 시 우측 상단 자물쇠 버튼을 이용해 inspector 칸을 잠근 후 추가할 state 들을 한꺼번에 선택 후 drag 한다).
 
+   <img src="/assets/images/image-20210730042300926.png" alt="image-20210730042300926" style="zoom:50%;" />
+
 3. Next States 지정이 끝났으면 메인 script 파일의 Update() 함수에 다음과 비슷한 코드를 추가해준다:
 
    ```C#
