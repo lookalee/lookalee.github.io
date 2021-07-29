@@ -77,7 +77,15 @@ void Start()
 
 > Refactoring & Encapsulating 하는 과정은 코드를 보기 쉽게 만들어 주고 추후 관리도 용이하게 해주기 때문에 굉장히 중요하다!
 
+## 함수 (Methods)
 
+함수 정의 예) 
+
+```c#
+public string getStory() {
+	//code
+}
+```
 
 <u>참조</u>
 

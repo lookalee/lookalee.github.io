@@ -39,9 +39,5 @@ categories: computer-architecture
 
 <u>참조</u>
 
-https://docs.unity3d.com/ScriptReference/Input.html
-https://docs.unity3d.com/ScriptReference/KeyCode.html
-https://www.udemy.com/course/unitycourse/
-
 
 
