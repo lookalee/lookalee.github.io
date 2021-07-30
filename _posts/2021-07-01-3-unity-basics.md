@@ -122,7 +122,7 @@ Canvas는 Game Object중 하나이며 게임 스크린이라고 생각해보자.
 - 사용한 설정값
   - Game 화면 디스플레이: Full HD (1920x1080)
 
-<u>참조</u>
+<u>출처</u>
 
 https://docs.unity3d.com/ScriptReference/Input.html
 https://docs.unity3d.com/ScriptReference/KeyCode.html

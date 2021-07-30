@@ -160,9 +160,7 @@ Scriptable Objects 사용법:
 
    
 
-<u>참고</u>: 
-
-<u>참조</u>
+<u>출처</u>
 
 https://docs.unity3d.com/ScriptReference/Input.html
 https://docs.unity3d.com/ScriptReference/KeyCode.html

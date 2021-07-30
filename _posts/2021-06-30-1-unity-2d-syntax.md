@@ -106,7 +106,7 @@ public string getStory() {
 int[] oddNumbers = {1, 3, 5, 7, 9};
 ```
 
-<u>참조</u>
+<u>출처</u>
 
 https://docs.unity3d.com/ScriptReference/Input.html
 https://docs.unity3d.com/ScriptReference/KeyCode.html
