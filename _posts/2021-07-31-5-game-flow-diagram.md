@@ -13,9 +13,7 @@ categories: unity-2d
 
 - draw.io 웹사이트 사용:
 
-예시) ![image-20210731021044421](/Users/jinwonlee/Documents/lookalee.github.io/assets/images/image-20210731021044421.png)
-
-![image-20210731021313003](/Users/jinwonlee/Documents/lookalee.github.io/assets/images/image-20210731021313003.png)
+예시) ![image-20210806142206118](/Users/jinwonlee/Documents/lookalee.github.io/assets/images/image-20210806142206118.png)
 
 - A, B, 등 알파벳은 각자 다른 스토리라인을 의미함
 - 빨간색 박스는 은 Game Over State, 녹색 박스는 Success State
