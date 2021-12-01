@@ -93,11 +93,11 @@ $$
 
 - O(1) < O(log n) < O(n) < O(n log n) < O(n^c) < O(c^n) < O(n!)
 
-![image-20211201031447333](../images/2021-12-01-competitive-coding-2/image-20211201031447333.png)
+![image-20211201031447333](/images/2021-12-01-competitive-coding-2/image-20211201031447333.png)
 
 ###### Time Complexities of Various Sorting Algorithms:
 
-![image-20211201031655832](../images/2021-12-01-competitive-coding-2/image-20211201031655832.png)
+![image-20211201031655832](/images/2021-12-01-competitive-coding-2/image-20211201031655832.png)
 
 
 
