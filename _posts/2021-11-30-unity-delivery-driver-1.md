@@ -9,6 +9,10 @@ categories: unity-2d
 
 
 
-test2
+**Creating a car object and make it rotate**:
+Create a Sprite -> Connect to C# script -> Add following code to Update(): 
 
-![DSCF1201](../images/2021-11-30-unity-delivery-driver-1/DSCF1201-16383376189301.JPG)
+```
+transform.Rotate(0, 0, 0.1f);
+```
+
