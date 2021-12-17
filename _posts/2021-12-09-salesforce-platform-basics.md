@@ -20,13 +20,17 @@ categories: salesforce
 
 ## Salesforce Architecture
 
-<img src="/assets/images/a1b2bb1adfd5c5951a958fb019d4fbd2_platform-basics-arch.webp" alt="a1b2bb1adfd5c5951a958fb019d4fbd2_platform-basics-arch" style="zoom: 25%;" />
+<img src="/assets/images/a1b2bb1adfd5c5951a958fb019d4fbd2_platform-basics-arch.webp" alt="a1b2bb1adfd5c5951a958fb019d4fbd2_platform-basics-arch" style="zoom: 50%;" />
 
 - Everything resides in the cloud
 - The Salesforce platform is the foundation of services. It is powered by meta data and has various parts such as data services, AI, and API
 - All apps sit on top, including pre-built apps like 'sales'.
 - Metadata: data about data, such as object fields, and other customizations
 - APIs: allow different pieces of software to connect with each other. 
+
+## AppExchange
+
+- There is a community of partners that use Salesforce platform to build apps that anyone can use. These can be downloaded through AppExchange.
 
 ###### **References**
 
