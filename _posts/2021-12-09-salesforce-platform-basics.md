@@ -20,7 +20,7 @@ categories: salesforce
 
 ## Salesforce Architecture
 
-![a1b2bb1adfd5c5951a958fb019d4fbd2_platform-basics-arch](/assets/images/a1b2bb1adfd5c5951a958fb019d4fbd2_platform-basics-arch.webp)
+<img src="/assets/images/a1b2bb1adfd5c5951a958fb019d4fbd2_platform-basics-arch.webp" alt="a1b2bb1adfd5c5951a958fb019d4fbd2_platform-basics-arch" style="zoom: 25%;" />
 
 - Everything resides in the cloud
 - The Salesforce platform is the foundation of services. It is powered by meta data and has various parts such as data services, AI, and API
