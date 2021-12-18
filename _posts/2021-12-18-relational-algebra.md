@@ -41,21 +41,33 @@ WHERE S.sid = R.sid AND
 
 ![image-20211218065359702](/assets/images/image-20211218065359702.png)
 
+**SQL Query for above**:
+
+![image-20211218070916830](/assets/images/image-20211218070916830.png)
+
 3. Relational Algebra to find the name of the student with the highest gpa. 
 
 ![image-20211218065434476](/assets/images/image-20211218065434476.png)
+
+**SQL Query for above**:
+
+![image-20211218070942546](/assets/images/image-20211218070942546.png)
 
 4. Relational Algebra to find the student id(s) who have taken the same course in exactly two different semesters. 
 
 ![image-20211218065454254](/assets/images/image-20211218065454254.png)
 
+**SQL Query for above**:
+
+![image-20211218071004413](/assets/images/image-20211218071004413.png)
+
 5. Relational Algebra to find  the  combination  of  student  id(s)  who  have  taken  the  same  exact  courses.  Each combination of student id(s) must only appear once.
 
 ![image-20211218065514216](/assets/images/image-20211218065514216.png)
 
+**SQL Query for above**:
 
-
-
+![image-20211218071025715](/assets/images/image-20211218071025715.png)
 
 #### References
 
