@@ -18,28 +18,37 @@ categories: database
 
   ![image-20211218051522206](/assets/images/image-20211218051522206.png)
 
-SQL Queries to translate this ER diagram:
+**SQL Queries to translate this ER diagram**:
 
 CREATE TABLE Student (email, name, gpa, PRIMARY KEY(email)); 
+
 CREATE TABLE Professor (email, name, PRIMARY KEY(email)); 
-CREATE TABLE Semester (id, PRIMARY KEY(id)); CREATE TABLE Course (id, name, credits, pemail NOT NULL, 
+
+CREATE TABLE Semester (id, PRIMARY KEY(id)); 
+
+CREATE TABLE Course (id, name, credits, pemail NOT NULL, 
 		PRIMARY KEY(id), 
 		FOREIGN KEY pemail REFERENCES Professor(email));
+
 CREATE TABLE Take (email, cid, semester, 
 		PRIMARY KEY(email, cid), 
 		FOREIGN KEY email REFERENCES Student(email), 
 		FOREIGN KEY cid REFERENCES Course(cid));
 
-CREATE TABLE Category (id, PRIMARY KEY(id)); CREATE TABLE Belong (cid, catid, 
+CREATE TABLE Category (id, PRIMARY KEY(id)); 
+
+CREATE TABLE Belong (cid, catid, 
 		PRIMARY KEY(cid, catid), 
 		FOREIGN KEY cid REFERENCES Course(id),
-		FOREIGN KEY catid REFERENCES Category(id)); CREATE TABLE Hierarchy (sub, super, 
+		FOREIGN KEY catid REFERENCES Category(id)); 
+
+CREATE TABLE Hierarchy (sub, super, 
 		PRIMARY KEY(sub, super), 
 		FOREIGN KEY sub REFERENCES Category(id), 		FOREIGN KEY super REFERENCES Category(id));
 
-CREATE TABLE Undergraduate_Student (email, year, 
-		PRIMARY KEY(email), 
+CREATE TABLE Undergraduate_Student (email, year, 		PRIMARY KEY(email), 
 		FOREIGN KEY email REFERENCES Student(email) ON DELETE CASCADE); 
+
 CREATE TABLE Graduate_Student (email, research_area, advisor NOT NULL 
 		PRIMARY KEY(email), 
 		FOREIGN KEY email REFERENCES Student(email) ON DELETE CASCADE, 
@@ -48,6 +57,7 @@ CREATE TABLE Graduate_Student (email, research_area, advisor NOT NULL
 CREATE TABLE Projects (id, name, owner NOT NULL 
 		PRIMARY KEY(id, name, owner), 
 		FOREIGN KEY owner REFERENCES Professor(email) ON DELETE CASCADE); 
+
 CREATE TABLE Work (email, id, name, 
 		PRIMARY KEY(email, id, name), 
 		FOREIGN KEY email REFERENCES Graduate_Student(email), 
