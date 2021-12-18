@@ -16,11 +16,11 @@ minimal_mistakes_skin    : "default" # "dark", "air", "aqua", "contrast", "defau
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Jinwon's Blog"
+title                    : "Jake's Blog"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : "Jinwon Lee"
-description              : "Jinwon's IT Dev Blog"
+name                     : "Jake Lee"
+description              : "Jake's IT Dev Blog"
 url                      : "https://lookalee.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "lookalee/lookalee.github.io" # GitHub username/repo-name
@@ -94,7 +94,7 @@ analytics:
 
 # Site Author
 author:
-  name             : "Jinwon Lee"
+  name             : "Jake Lee"
   avatar           : "/assets/images/lake.jpeg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Welcome! I'm interested in XR, iOS, and game dev."
   location         : "South Korea"
@@ -111,13 +111,13 @@ author:
       # url: "https://twitter.com/"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
-      url: "https://facebook.com/jinwon.lee.142892" #ADDED
+      url: #"https://facebook.com/jinwon.lee.142892" #ADDED
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/lookalee" #ADDED
+      url: #"https://github.com/lookalee" #ADDED
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/jwlee17_" #ADDED
+      url: #"https://instagram.com/jwlee17_" #ADDED
 
 # Site Footer
 footer:
