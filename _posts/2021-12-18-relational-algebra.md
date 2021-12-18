@@ -15,20 +15,27 @@ categories: database
 
 Considering the following relations...
 
-Student(sid, name, gpa) 
-Course(cid, name, department) 
-Registers(sid, cid, semester)
+**Student(sid, name, gpa)** 
+
+**Course(cid, name, department)** 
+
+**Registers(sid, cid, semester)**
 
 1. Relational Algebra to find the name of students who take course with cid = CSCI5708 in Spring 2021 semester:
 
 ![image-20211218063817351](/assets/images/image-20211218063817351.png)
 
-SQL Query for above:
+**SQL Query for above**:
 
 SELECT S.name
+
 FROM Students S, Registers R
+
 WHERE S.sid = R.sid AND
-		R.cid ="CSCI5708" AND R.semester="Spring 2021";
+
+​		R.cid ="CSCI5708" AND 
+
+​		R.semester="Spring 2021";
 
 2. Relational Algebra to find the student id(s) that have taken all courses in the Computer Science department:
 
