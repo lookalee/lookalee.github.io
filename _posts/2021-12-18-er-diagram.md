@@ -29,11 +29,7 @@ Ex)![image-20211218031352295](/assets/images/image-20211218031352295.png)
 
 - If an entity can only show up **at most once** in a relationship, an arrow line is used.
 
-  ex) 
-
 - If each entity must show up **at least once** in a relationship, a thick line is used (total participation)
-
-  ex)
 
 - If each entity must show up **exactly once** in a relationship, a thick arrow is used. 
 
