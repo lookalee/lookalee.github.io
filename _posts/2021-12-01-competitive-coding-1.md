@@ -7,9 +7,9 @@ categories: competitive-coding
 
 ---
 
-## Useful C++ Syntax
+# Useful C++ Syntax
 
-#### auto
+### auto
 
 - automatically uses the type of the element
 
@@ -24,7 +24,7 @@ categories: competitive-coding
 
   
 
-#### Int -> String Conversion:
+### Int -> String Conversion:
 
 ```c++
 #include <string> 
@@ -32,7 +32,7 @@ int x = 10;
 std::string s = std::to_string(x); 
 ```
 
-#### **size of vector array: **`.size()`
+### **size of vector array: **`.size()`
 
 ex)
 
@@ -41,14 +41,14 @@ std::vector<int> myints;
 std::cout << myints.size(); 
 ```
 
-#### map
+### map
 
 - Maps contain key value pairs, where each keys are unique.
 
-**Creating a map of three strings**:
+**Creating a map with 3 strings as keys**:
 
 ```c++
-std::map<std::string, int> m { {"Banana", 10}, {"Apple", 12}, {"Pear", 20}, };
+std::map<std::string, int> m { 	{"Banana", 10}, {"Apple", 12},     	{"Pear", 20}, };
 ```
 
 **Inserting new/ updating value**:
@@ -56,5 +56,14 @@ std::map<std::string, int> m { {"Banana", 10}, {"Apple", 12}, {"Pear", 20}, };
 ```c++
 m["Banana"] = 5; //updates 10 to 5
 m["Avocado"] = 1; //creates new key with value 1
+```
+
+**Iterating the map's value**:
+
+```c++
+for(auto it:m) 
+{
+	sum += it.second; //use '.first' for key, '.second' for value
+}
 ```
 
