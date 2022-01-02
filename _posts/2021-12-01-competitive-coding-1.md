@@ -71,6 +71,48 @@ string str ("hello, world");
 return str.substr(6); //" world"
 ```
 
+##### Splitting strings using getline():
+
+```c++
+//Include necessary libraries
+#include <iostream>
+#include <sstream>
+#include <vector>
+#include <string>
+
+int main()
+{
+    //Define string data that will be splitted
+    std::string strData = "Learn C++ Programming";
+    //Define contant data that will be worked as delimiter
+    const char separator = ' ';
+    //Define the dynamic array variable of strings
+    std::vector outputArray;
+    //Construct a stream from the string
+    std::stringstream streamData(strData);
+    /*
+    Declare string variable that will be used
+    to store data after split
+    */
+    std::string val;
+    /*
+    The loop will iterate the splitted data and
+    insert the data into the array
+    */
+    while (std::getline(streamData, val, separator)) {
+        outputArray.push_back(val);
+    }
+    //Print the splitted data
+    std::cout << "The original string is:" << strData << std::endl;
+    //Read the array and print the splitted data
+    std::cout << "\nThe values after splitting the string based on space:" << std::endl;
+    for (auto &val: outputArray) {
+        std::cout << val << std::endl;
+    }
+    return 0;
+}
+```
+
 
 
 ### map
@@ -99,3 +141,8 @@ for(auto it:m)
 }
 ```
 
+
+
+### References:
+
+- https://linuxhint.com/split-string-cpp/
