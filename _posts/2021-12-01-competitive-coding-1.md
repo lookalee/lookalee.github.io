@@ -24,15 +24,9 @@ categories: competitive-coding
 
   
 
-### Int -> String Conversion:
+### Arrays
 
-```c++
-#include <string> 
-int x = 10;
-std::string s = std::to_string(x); 
-```
-
-### **size of vector array: **`.size()`
+##### **size of vector array: **`.size()`
 
 ex)
 
@@ -40,6 +34,44 @@ ex)
 std::vector<int> myints;
 std::cout << myints.size(); 
 ```
+
+### 
+
+### Strings
+
+length of strings: `str.length()`
+
+##### Int -> String Conversion:
+
+```c++
+#include <string> 
+int x = 10;
+std::string s = std::to_string(x); 
+```
+
+##### Find content in strinfg: `.find()`
+
+ex)
+
+```c++
+#include <string> 
+string str ("hello, world");
+return str.find(','); //6
+```
+
+- if no matches are found, returns `string::npos`
+
+##### Substring: `.substr()`
+
+ex)
+
+```c++
+#include <string> 
+string str ("hello, world");
+return str.substr(6); //" world"
+```
+
+
 
 ### map
 
