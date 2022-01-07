@@ -1,8 +1,8 @@
 ---
 layout: single
-title: "[Competitive Coding] Useful C++ syntax for solving coding problems"
-tags: [c++, competitive-coding]
-categories: competitive-coding
+title: "[C++ Syntax] Useful C++ syntax for solving coding problems"
+tags: [c++]
+categories: algorithms
 
 
 ---
