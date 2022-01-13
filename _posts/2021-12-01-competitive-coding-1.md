@@ -24,18 +24,32 @@ categories: algorithms
 
   
 
-### Arrays
+### Vectors (Arrays)
 
 ##### **size of vector array: **`.size()`
 
-ex)
+##### Initializing vector:
 
 ```c++
-std::vector<int> myints;
-std::cout << myints.size(); 
+std::vector<int> v;
+std::vector<int> v(n, 10); //initialize vector with size n with all values set to 10.
+std::cout << v.size(); 
 ```
 
-### 
+##### Initializing 2D vector with size n X m:
+
+```c++
+std::vector<vector<int>> v(n ,vector<int>(m));
+```
+
+##### deleting element from vector:
+
+```c++
+v.erase(5); //erase 5th element
+v.erase(0, 3) //erase first 3 elements
+```
+
+
 
 ### Strings
 
@@ -141,7 +155,15 @@ for(auto it:m)
 }
 ```
 
+##### Check if key exists in map:
 
+```cpp
+if ( m.find("f") == m.end() ) {
+  // not found
+} else {
+  // found
+}
+```
 
 ### References:
 
