@@ -1,9 +1,9 @@
 ---
 
 layout: single
-title: "[Competitive Coding] Calculating Time-Complexity and Space-Complexity of Algorithms"
-tags: [competitive-coding]
-categories: competitive-coding
+title: "[Big-O] Calculating Time-Complexity and Space-Complexity of Algorithms"
+tags: [big-o]
+categories: algorithms
 
 ---
 
