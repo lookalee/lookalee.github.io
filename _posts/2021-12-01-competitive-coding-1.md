@@ -63,7 +63,7 @@ int x = 10;
 std::string s = std::to_string(x); 
 ```
 
-##### Find content in strinfg: `.find()`
+##### Find content in string: `.find()`
 
 ex)
 
