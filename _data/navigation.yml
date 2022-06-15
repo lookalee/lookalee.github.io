@@ -10,3 +10,20 @@ main:
   #   url: /collection-archive/
   # - title: "Sitemap"
   #   url: /sitemap/
+
+# docs links
+# docs:
+#   - title: "CSS"
+#     url: /_posts/CSS/
+
+#   - title: "JS"
+#     children:
+#       - title: "Asynchronous"
+#         url: /_posts/JS/Asynchronous/
+#       - title: "Prototypes-Classes-OOP"
+#         url: /_posts/JS/Prototypes-Classes-OOP/
+
+#   - title: "Web Development"
+#     children:
+#       - title: "API"
+#         url: /_posts/Web\ Development/API/
