@@ -97,7 +97,7 @@ author:
   name             : "Jake Lee"
   avatar           : "/assets/images/lake.jpeg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Welcome! I'm interested in XR, iOS, and game dev."
-  location         : "South Korea"
+  location         : "San Diego"
   email            : "dwdljw@gmail.com"
   links:
     - label: "Email"
@@ -114,10 +114,10 @@ author:
       url: #"https://facebook.com/jinwon.lee.142892" #ADDED
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: #"https://github.com/lookalee" #ADDED
+      url: "https://github.com/lookalee" 
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      url: #"https://instagram.com/jwlee17_" #ADDED
+      url: "https://instagram.com/jwlee17_" 
 
 # Site Footer
 footer:
