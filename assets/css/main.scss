@@ -3,8 +3,8 @@
 --- 
 
 // https://mmistakes.github.io/minimal-mistakes/docs/stylesheets/#customizing
-$sans-serif: 'Noto Sans KR';
-$monospace: 'Ubuntu Mono';
+$sans-serif: 'Dongle', 'Noto Sans KR';
+$monospace: 'Dongle', 'Ubuntu Mono';
 $type-size-4-5: 1.12em !default; // Ubuntu Mono is a bit small
 
 @charset "utf-8";
@@ -18,15 +18,15 @@ html {
   font-size: 12px; // change to whatever
   
   @include breakpoint($medium) {
-    font-size: 14px; // change to whatever
+    font-size: 12px; // change to whatever
   }
 
   @include breakpoint($large) {
-    font-size: 16px; // change to whatever
+    font-size: 13px; // change to whatever
   }
 
   @include breakpoint($x-large) {
-    font-size: 18px; // change to whatever
+    font-size: 15px; // change to whatever
   }
 }
 
