@@ -12,92 +12,60 @@
       </li>
       <li>
         <!--span 태그로 카테고리들을 크게 분류 ex) C/C++/C#-->
-        <span class="nav__sub-title">Others</span>
-            <!--ul 태그로 같은 카테고리들 모아둔 페이지들 나열-->
-            <ul>
-                <!--CSS 카테고리 글들을 모아둔 페이지인 /categories/html 주소의 글로 링크 연결-->
-                <!--category[1].size 로 해당 카테고리를 가진 글의 개수 표시--> 
-                {% for category in site.categories %}
-                    {% if category[0] == "git" %}
-                        <li><a href="/categories/git" class="">git ({{category[1].size}})</a></li>
-                    {% endif %}
-                {% endfor %}
-            </ul>
-        <span class="nav__sub-title">CSS</span>
+        <span class="nav__sub-title">Fundamentals</span>
             <!--ul 태그로 같은 카테고리들 모아둔 페이지들 나열-->
             <ul>
                 <!--CSS 카테고리 글들을 모아둔 페이지인 /categories/css 주소의 글로 링크 연결-->
                 <!--category[1].size 로 해당 카테고리를 가진 글의 개수 표시--> 
                 {% for category in site.categories %}
-                    {% if category[0] == "CSS" %}
-                        <li><a href="/categories/css" class="">CSS ({{category[1].size}})</a></li>
-                    {% endif %}
-                {% endfor %}
-            </ul>
-        <span class="nav__sub-title">JavaScript</span>
-            <ul>
-                {% for category in site.categories %}
-                    {% if category[0] == "JavaScript" %}
-                        <li><a href="/categories/js" class="">JavaScript ({{category[1].size}})</a></li>
+                    {% if category[0] == "algorithm" %}
+                        <li><a href="/categories/algorithm" class="">Algorithm ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "Asynchronous JS" %}
-                        <li><a href="/categories/async" class="">Asynchronous JS ({{category[1].size}})</a></li>
+                    {% if category[0] == "database" %}
+                        <li><a href="/categories/database" class="">Database ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "OOP" %}
-                        <li><a href="/categories/oop" class="">OOP ({{category[1].size}})</a></li>
+                    {% if category[0] == "computer-architecture" %}
+                        <li><a href="/categories/computer-architecture" class="">Computer Architecture ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
-        <span class="nav__sub-title">DOM</span>
+        <span class="nav__sub-title">Mobile</span>
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "DOM" %}
-                        <li><a href="/categories/dom" class="">DOM ({{category[1].size}})</a></li>
+                    {% if category[0] == "ios" %}
+                        <li><a href="/categories/ios" class="">iOS ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
-        <span class="nav__sub-title">Web Development</span>
+
+        <span class="nav__sub-title">Gaming</span>
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "Web Development" %}
-                        <li><a href="/categories/webdev" class="">Web Development ({{category[1].size}})</a></li>
+                    {% if category[0] == "unity-2d" %}
+                        <li><a href="/categories/unity-2d" class="">Unity 2D ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
+        <span class="nav__sub-title">Others</span>
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "Client-Side Storage" %}
-                        <li><a href="/categories/client-side-storage" class="">Client-Side Storage ({{category[1].size}})</a></li>
-                    {% endif %}
-                {% endfor %}
-            </ul>
-            <ul>
-                {% for category in site.categories %}
-                    {% if category[0] == "Security" %}
-                        <li><a href="/categories/client-side-storage" class="">Security ({{category[1].size}})</a></li>
-                    {% endif %}
-                {% endfor %}
-            </ul>
-        <span class="nav__sub-title">Backend</span>
-            <ul>
-                {% for category in site.categories %}
-                    {% if category[0] == "Node.js" %}
-                        <li><a href="/categories/nodejs" class="">Node.js ({{category[1].size}})</a></li>
+                    {% if category[0] == "git" %}
+                        <li><a href="/categories/git" class="">Git ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "MongoDB" %}
-                        <li><a href="/categories/mongodb" class="">MongoDB ({{category[1].size}})</a></li>
+                    {% if category[0] == "salesforce" %}
+                        <li><a href="/categories/salesforce" class="">Salesforce ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>

@@ -1,8 +1,8 @@
 ---
 layout: single
 title: "Swift 언어 기본 문법 (1)"
-tags: [swift,iOS]
-categories: iOS
+tags: [swift,ios]
+categories: ios
 
 
 ---

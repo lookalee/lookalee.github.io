@@ -2,7 +2,7 @@
 layout: single
 title: "[C++ Syntax] Useful C++ syntax for solving coding problems"
 tags: [c++]
-categories: algorithms
+categories: algorithm
 
 
 ---

@@ -1,11 +1,11 @@
 ---
-title: "Asynchronous JS"
+title: "ios"
 layout: archive
-permalink: categories/async
+permalink: categories/ios
 author_profile: true
 sidebar_main: true
 ---
 
 
-{% assign posts = site.categories.["Asynchronous JS"] %}
+{% assign posts = site.categories.ios %}
 {% for post in posts %} {% include archive-single.html type=page.entries_layout %} {% endfor %}
