@@ -10,10 +10,6 @@ categories: database
 
 - Relational Model is the most widely used model. A relation can be thought of a set of rows (or tuples) of records.
 
-  ex) <img src="/assets/images/Screen Shot 2021-12-18 at 5.13.01 AM.png" alt="Screen Shot 2021-12-18 at 5.13.01 AM" style="zoom:33%;" />
-
-  ^ this is a Students relation that with cardinality of 3 and degree of 5, where all rows are distinct.
-
 - SQL Query Example:
 
   ![image-20211218051522206](/assets/images/image-20211218051522206.png)
