@@ -10,11 +10,8 @@ categories: algorithm
 # Useful C++ Syntax
 
 ### auto
-
 - automatically uses the type of the element
-
 - use it to avoid unnecessary conversions!
-
 - ex) 
 
   ```c++
@@ -22,12 +19,8 @@ categories: algorithm
   auto myAuto = count; //'auto' becomes  'int'
   ```
 
-  
-
 ### Vectors (Arrays)
-
-##### **size of vector array: **`.size()`
-
+##### size of vector array: `.size()`
 ##### Initializing vector:
 
 ```c++
@@ -43,7 +36,6 @@ std::vector<vector<int>> v(n ,vector<int>(m));
 ```
 
 ##### deleting element from vector:
-
 ```c++
 v.erase(5); //erase 5th element
 v.erase(0, 3) //erase first 3 elements
@@ -52,11 +44,9 @@ v.erase(0, 3) //erase first 3 elements
 
 
 ### Strings
-
 length of strings: `str.length()`
 
 ##### Int -> String Conversion:
-
 ```c++
 #include <string> 
 int x = 10;
@@ -64,21 +54,16 @@ std::string s = std::to_string(x);
 ```
 
 ##### Find content in string: `.find()`
-
 ex)
-
 ```c++
 #include <string> 
 string str ("hello, world");
 return str.find(','); //6
 ```
-
 - if no matches are found, returns `string::npos`
 
 ##### Substring: `.substr()`
-
 ex)
-
 ```c++
 #include <string> 
 string str ("hello, world");
@@ -86,7 +71,6 @@ return str.substr(6); //" world"
 ```
 
 ##### Splitting strings using getline():
-
 ```c++
 //Include necessary libraries
 #include <iostream>
@@ -127,12 +111,8 @@ int main()
 }
 ```
 
-
-
 ### map
-
 - Maps contain key value pairs, where each keys are unique.
-
 **Creating a map with 3 strings as keys**:
 
 ```c++
@@ -166,5 +146,4 @@ if ( m.find("f") == m.end() ) {
 ```
 
 ### References:
-
 - https://linuxhint.com/split-string-cpp/
