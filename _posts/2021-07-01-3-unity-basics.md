@@ -3,8 +3,7 @@ layout: single
 title: "Unity-2D 공부일지: Unity 기본 (3)"
 tags: [unity, game-dev, C#]
 categories: unity-2d
-
-
+toc: yes
 ---
 
 ### Unity 인터페이스 기본

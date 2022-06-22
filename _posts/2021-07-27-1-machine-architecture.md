@@ -3,9 +3,7 @@ layout: single
 title: "Machine Architecture 기본 (1)"
 tags: [computer-architecture]
 categories: computer-architecture
-
-
-
+toc: yes
 ---
 
 - 시스템은 다음과 같은 3가지로 나뉘어져 있다: 

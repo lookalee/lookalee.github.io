@@ -3,9 +3,7 @@ layout: single
 title: "Swift 언어 기본 문법 (2)"
 tags: [swift,ios]
 categories: ios
-
-
-
+toc: yes
 ---
 
 ### Variables (변수)

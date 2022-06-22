@@ -3,9 +3,7 @@ layout: single
 title: "텍스트 기반 게임 개발: text component, scriptable object, state (1)"
 tags: [unity, game-dev, C#]
 categories: unity-2d
-
-
-
+toc: yes
 ---
 
 ### Text Component 업데이트 하는 법

@@ -3,6 +3,7 @@ layout: single
 title: "Git Basic Commands (2)"
 tags: [git, github]
 categories: git
+toc: yes
 ---
 
 ### Important Git Basic Commands

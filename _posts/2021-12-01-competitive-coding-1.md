@@ -3,7 +3,7 @@ layout: single
 title: "[C++ Syntax] Useful C++ syntax for solving coding problems"
 tags: [c++]
 categories: algorithm
-
+toc: yes
 
 ---
 

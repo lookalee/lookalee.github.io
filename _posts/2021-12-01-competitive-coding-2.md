@@ -4,7 +4,7 @@ layout: single
 title: "[Big-O] Calculating Time-Complexity and Space-Complexity of Algorithms"
 tags: [big-o]
 categories: algorithm
-
+toc: yes
 ---
 
 # Understanding Time-Complexity and Space-Complexity of Algorithms

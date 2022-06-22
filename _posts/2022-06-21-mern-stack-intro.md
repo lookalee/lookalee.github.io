@@ -34,3 +34,9 @@ toc: yes
   - Stores app data, such as users or products
   - Does not require data schema or relations
   - Advantage: Easily connected to Node/Express
+
+
+
+**Big Picture of MERN**:
+
+<img src="../images/2022-06-21-mern-stack-intro/image-20220622001544292.png" alt="image-20220622001544292" style="zoom: 50%;" />

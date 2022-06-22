@@ -3,6 +3,7 @@ layout: single
 title: "Relational Algebra"
 tags: [database]
 categories: database
+toc: yes
 
 
 ---

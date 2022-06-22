@@ -3,7 +3,7 @@ layout: single
 title: "Entity Relationship Diagram"
 tags: [database]
 categories: database
-
+toc: yes
 ---
 
 ## ER Model Basics

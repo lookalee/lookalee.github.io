@@ -3,6 +3,7 @@ layout: single
 title: "Relational Model & SQL Queries"
 tags: [database]
 categories: database
+toc: yes
 
 ---
 

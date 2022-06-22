@@ -3,6 +3,7 @@ layout: single
 title: "Unity-2D 공부일지: C# 기본 (1)"
 tags: [unity, game-dev, C#]
 categories: unity-2d
+toc: yes
 ---
 
 ## 콘솔에 출력하기

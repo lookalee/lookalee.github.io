@@ -3,8 +3,7 @@ layout: single
 title: "Swift 언어 기본 문법 (1)"
 tags: [swift,ios]
 categories: ios
-
-
+toc: yes
 ---
 
 ### functions (함수)

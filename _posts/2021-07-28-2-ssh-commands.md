@@ -3,9 +3,7 @@ layout: single
 title: "유용한 리눅스 커맨드 및 ssh 커멘드 정리 (2)"
 tags: [computer-architecture]
 categories: computer-architecture
-
-
-
+toc: yes
 
 ---
 

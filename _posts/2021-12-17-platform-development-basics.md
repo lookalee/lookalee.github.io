@@ -3,7 +3,7 @@ layout: single
 title: "Platform Development Basics"
 tags: [salesforce, cloud]
 categories: salesforce
-
+toc: yes
 
 ---
 

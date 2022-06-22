@@ -3,7 +3,7 @@ layout: single
 title: "How to commit to a past date.. (7)"
 tags: [git, github]
 categories: git
-
+toc: yes
 
 ---
 

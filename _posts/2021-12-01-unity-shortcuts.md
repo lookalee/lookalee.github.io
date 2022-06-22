@@ -3,7 +3,7 @@ layout: single
 title: "Unity Useful Shortcuts"
 tags: [unity, game-dev, C#]
 categories: unity-2d
-
+toc: yes
 
 
 

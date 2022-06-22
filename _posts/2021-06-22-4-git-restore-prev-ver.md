@@ -3,7 +3,7 @@ layout: single
 title: "How to use 'git checkout' to restore previous version of git repository (4)"
 tags: [git, github]
 categories: git
-
+toc: yes
 ---
 
 > One of the main advantages of using Git is version management. Here is one way to restore a repository to its previous version.

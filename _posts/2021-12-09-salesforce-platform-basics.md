@@ -3,7 +3,7 @@ layout: single
 title: "Salesforce Platform Basics"
 tags: [salesforce, cloud]
 categories: salesforce
-
+toc: yes
 ---
 
 ## Salesforce Platform Intro

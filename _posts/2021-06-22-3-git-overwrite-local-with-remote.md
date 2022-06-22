@@ -3,6 +3,7 @@ layout: single
 title: "How to use 'git fetch' and 'git reset' to overwrite local repository with remote version (3)"
 tags: [git, github, repository]
 categories: git
+toc: yes
 ---
 
 > If changes have been made to the remote git repository, either by a team member or yourself (ex: modifying from github directly), you will not be able to push new local changes because the remote workspace is not synced with the local workspace. 

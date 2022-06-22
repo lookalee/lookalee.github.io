@@ -3,11 +3,7 @@ layout: single
 title: "텍스트 기반 게임 개발: 폰트 및 컬러 수정 (3)"
 tags: [unity, game-dev, C#]
 categories: unity-2d
-
-
-
-
-
+toc: yes
 
 ---
 
