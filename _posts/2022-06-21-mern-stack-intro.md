@@ -39,4 +39,4 @@ toc: yes
 
 **Big Picture of MERN**:
 
-<img src="../images/2022-06-21-mern-stack-intro/image-20220622001544292.png" alt="image-20220622001544292" style="zoom: 50%;" />
+<img src="../assets/images/image-20220622001933337.png" alt="image-20220622001933337" style="zoom:50%;" />
