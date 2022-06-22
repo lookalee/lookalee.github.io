@@ -39,4 +39,4 @@ toc: yes
 
 **Big Picture of MERN**:
 
-<img src="../assets/images/image-20220622001933337.png" alt="image-20220622001933337" style="zoom:50%;" />
+<img src="/assets/images/image-20220622001933337.png" alt="image-20220622001933337" style="zoom:50%;" />
