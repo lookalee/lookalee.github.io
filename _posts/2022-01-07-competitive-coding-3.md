@@ -3,6 +3,7 @@ layout: single
 title: "[Algorithms] Depth-First-Search and Breadth-First-Search"
 tags: [algorithms]
 categories: algorithm
+---
 
 
 ---
@@ -52,6 +53,6 @@ void search(Node root) {
 
 ### Bidirectional Search
 
-- Bidirectional serach can be used to find the shortest path between two nodes. 
+- Bidirectional search can be used to find the shortest path between two nodes. 
 - Operates essentially by **running two BFS**, one from each node.
 - Has faster run-time than a BFS, as O(k^d) is reduced to O(k^(d/2))
