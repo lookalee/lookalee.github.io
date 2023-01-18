@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "[MERN Stack] Introduction"
+title: "[MERN] Introduction"
 tags: [web]
 categories: web
 toc: yes
@@ -34,8 +34,6 @@ toc: yes
   - Stores app data, such as users or products
   - Does not require data schema or relations
   - Advantage: Easily connected to Node/Express
-
-
 
 **Big Picture of MERN**:
 
