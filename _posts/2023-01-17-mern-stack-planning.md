@@ -7,7 +7,7 @@ toc: yes
 
 ---
 
-### Web Application Planning
+### Web Application Planning Process
 
 General planning steps of an application:
 
