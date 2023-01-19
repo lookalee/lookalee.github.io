@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "Web Application Planning"
+title: "Web Application Planning Process"
 tags: [web]
 categories: web
 toc: yes
