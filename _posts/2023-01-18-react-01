@@ -1,0 +1,15 @@
+---
+layout: single
+title: "Introduction to React"
+tags: [web, react]
+categories: react
+toc: yes
+
+---
+
+## Introduction to React
+
+### What is React?
+- React.js is a Javascript Library for building highly reactive modern user interfaces, and therefore the frontend of the web
+    - React does not run on a server, and does not communicate with databases.
+- React uses a **user declarative** approach, meaning that we define the **results**, and not the steps
