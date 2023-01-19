@@ -25,7 +25,7 @@ toc: yes
     - Ex) Literally Converts `<h1>Hi</h1>` —> `React.createElement(‘h1’, {}, ‘Hi’)`
     - JSX is not legal JS, so must be converted to valid JS using Babel.
     - We can use pure JS inside JSX by using `{}`
-        - example)
+        - Ex)
         ```
             const favFood = 'egg';
             function disectFood(favFood) {
@@ -42,5 +42,19 @@ toc: yes
 - Apps are split into components which are UI building blocks. They can be a function or a class
     - `Functional` components are more modern
         - Reason: Historically, functional components couldn't use important features like state, lifecycle methods, etc. But now, with the introduction of hooks, we can write full-featured function components.
+        - Ex)
+        ```
+            function Welcome() {
+                return <h1>Hello</h1>; # Notice no render method is needed
+            }
+        ```
+    - `class` component Ex)
+        ```
+            class Welcome extends React.Component {
+                render() {
+                return <h1>Hello, {this.props.name}</h1>;
+                }
+            }
+        ```
 - We want to split the project in a way that it is more manageable by using components (esp needed for bigger projects)
 
