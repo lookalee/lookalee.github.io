@@ -12,4 +12,35 @@ toc: yes
 ### What is React?
 - React.js is a Javascript Library for building highly reactive modern user interfaces, and therefore the frontend of the web
     - React does not run on a server, and does not communicate with databases.
-- React uses a **user declarative** approach, meaning that we define the **results**, and not the steps
+- React uses a `user declarative` approach, meaning that we define the `results` using components.
+    - JS uses an `imperative` approach, which defines all the steps to achieve result. We don't want to use this for bigger apps because it will be very complex, and we want to focus more on actual business logic and building nice interfaces. 
+
+### Terms
+#### SPA (Single Page Application)
+- A common choice is to use SPA, which allows quick rendering as everything loads from one HTML file.
+    - Everything will already be loaded, so things happen instantly when a button is clicked, etc.
+
+#### JSX
+- Syntax that allows HTML-looking code to be used in JS files by translating it in a way React can understand.
+    - Ex) Literally Converts `<h1>Hi</h1>` —> `React.createElement(‘h1’, {}, ‘Hi’)`
+    - JSX is not legal JS, so must be converted to valid JS using Babel.
+    - We can use pure JS inside JSX by using `{}`
+        - example)
+        ```
+            const favFood = 'egg';
+            function disectFood(favFood) {
+                return favFood.ingredients;
+            };
+            const test = (
+                <h1>
+                    To cook {favFood}, we need {disectFood(favFood)}
+                </h1>
+            );
+        ```
+
+#### Components
+- Apps are split into components which are UI building blocks. They can be a function or a class
+    - `Functional` components are more modern
+        - Reason: Historically, functional components couldn't use important features like state, lifecycle methods, etc. But now, with the introduction of hooks, we can write full-featured function components.
+- We want to split the project in a way that it is more manageable by using components (esp needed for bigger projects)
+
