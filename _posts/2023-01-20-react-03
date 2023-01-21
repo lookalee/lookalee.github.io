@@ -1,0 +1,42 @@
+---
+layout: single
+title: "React - Creating an App (3)"
+tags: [web, react]
+categories: react
+toc: yes
+
+---
+
+## Create React App (CRA): Installing, Terminal Commands, Webpack, Modules
+
+### What is Create React App?
+- A utility script that creates a skeleton react project. 
+    - has 'src' folder for all components
+    - has 'public' folder that will have index.html file
+    - Sets JS files to run through Babel automatically.
+- This should be used instead of CDN links.
+
+### How to install 'Create React App'
+```
+npm install -g create-react-app
+create-react-app {app name}
+cd {app name}
+npm start
+```
+
+### Important Commands
+- `npm start` : Brings up dev server. If this server is closed, we can't preview the app anymore.
+- `npm run build` : Bundles app into static files for production
+- `npm test` : Starts test runner
+- `npm run eject` : Removes the tool and copies build dependencies, configuration files, and scripts into the app directory. This cannot be undone. 
+
+### Webpack
+- CRA is built on top of a webpack. 
+- Webpack : JS utility that enables import/export of modules.
+    - Packages up all CSS, images, and JS into a single file for the browser.
+    - Reduces no. of necessary HTTP requests.
+    - Allows hot reloading (automatic reload when source file changes)
+    - Allows easy testing and deployment
+
+### CRA Conventions
+- 
